@@ -1,0 +1,573 @@
+{% load staticfiles %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mathematics Department">
+  <meta name="author" content="Subhanshu Pandey">
+  <title>Mathematics ,Department</title>
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'css/bootstrap-responsive.min.css' %}" rel="stylesheet">
+  <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+  <link href="{% static 'css/font-awesome-ie7.css' %}" rel="stylesheet">
+  <link href="{% static 'css/boot-business.css' %}" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="{% static 'sss/sss.min.js' %}"></script>
+  <link rel="stylesheet" href="{% static 'sss/sss.css' %}" type="text/css" media="all">
+
+  <script>
+    jQuery(function($) {
+      $('.slider').sss();
+    });
+  </script>
+  <style>
+    .ticker1 {
+     width: 95%;
+     height: 300px;
+     overflow: hidden;
+     border-radius: 5px;
+     background-color: #EEEEEC;
+     text-align: left;
+   }
+   .ticker2 {
+     width: 95%;
+     height: 300px;
+     overflow: hidden;
+     border-radius: 5px;
+     background-color: #EEEEEC;
+     text-align: left;
+   }
+   .ticker6 {
+     width: 95%;
+     height: 300px;
+     overflow: hidden;
+     border-radius: 5px;
+     background-color: #EEEEEC;
+     text-align: left;
+   }
+   .ticker3 {
+     width: 95%;
+     height: 300px;
+     overflow: hidden;
+     border-radius: 5px;
+     background-color: #EEEEEC;
+     text-align: left;
+   }
+
+   .ticker4 {
+     width: 95%;
+     height: 300px;
+     overflow: hidden;
+     border-radius: 5px;
+     background-color: #EEEEEC;
+     text-align: left;
+   }
+   .ticker5 {
+     width: 95%;
+     height: 300px;
+     overflow: hidden;
+     border-radius: 5px;
+     background-color: #EEEEEC;
+     text-align: left;
+   }
+
+ </style>
+</head>
+<body>
+
+  <header>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a href="index" class="brand brand-bootbus">CSIT</a>
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>            </button>
+            <div class="nav-collapse collapse">        
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="institute.html"> About Institute</a></li>
+                    <li><a href="mission.html">Mission & Vision</a></li>
+                    <li><a href="chairman.html">Chairman Speaks</a></li>
+                    <li><a href="director.html">Director Speaks</a></li>
+                    <li><a href="eminentfaculties.html">Eminent Faculties</a></li>
+                    <li><a href="qualitypolicy.html">Quality Policy</a></li> 
+                    <li><a href="governingbody.html">Governing Body</a></li>             
+                  </ul>                  
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academics<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  	<li class="nav-header">Undergraduate</li>
+                    <li><a href="me.html">Mechanical Engineering</a></li>
+                    <li><a href="cse.html">Computer Science & Engineering</a></li>
+                    <li><a href="etnt.html">Electronics & Telecommunication</a></li>
+                    <li><a href="ei.html">Electronic & Instrumentation</a></li>
+                    <li><a href="eee.html">Electrical Engineering</a></li>
+                    <li><a href="it.html">Information Technology </a></li>
+                    <li><a href="mex.html">Mechatronics Engineering</a></li>
+                    <li class="nav-header"> Applied Sciences & Humanities</li>
+                    <li><a href="physics.html">Applied Physics</a></li>
+                    <li><a href="chemistry.html">Applied Chemistry</a></li>
+                    <li><a href="maths.html">Applied Mathematics</a></li>
+                    <li class="nav-header">Postgraduate</li>
+                    <li><a href="mtech_me.html">Mechanical Engineering</a></li>
+                    <li><a href="mtech_cse.html">Computer Science & Engineering</a></li>
+                    <li><a href="mtech_etnt.html">Electronics & Telecommunication</a></li>
+                  </ul>
+                </li>
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Associations<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  	<li class="nav-header">Association Clubs</li>
+                    <li><a href="mea.html">MEA</a></li>
+                    <li><a href="ace.html">ACE</a></li>
+                    <li><a href="saeee.html">SAEEE</a></li>
+                    <li><a href="elite.html">ELITE</a></li>
+                    <li><a href="comet.html">COMET</a></li>
+                    <li><a href="brite.html">BRITE</a></li>
+                    <li><a href="fame.html">FAME</a></li>
+                    <li class="nav-header">Clubs</li>
+                    <li><a href="itclub.html">IT-Club</a></li>
+                    <li><a href="iclicks.html">I-Click</a></li>
+                    <li><a href="eneryclub.html">Energy Club</a></li>
+                  </ul>
+                </li>
+                <li><a href="admissions.html">Admissions</a></li>  
+                <li><a href="tpo.html">TPO</a></li>  
+                <li><a href="alumni.html">Alumni</a></li>  
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Facilities<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                   <li><a href="canteen.html">Canteen</a></li>
+                   <li><a href="cafe.html">Cafe</a></li>
+                   <li><a href="hostel.html">Hostel</a></li>
+                   <li><a href="postoffice.html">Post Office</a></li>
+                   <li><a href="bank.html">Bank</a></li>
+                   <li><a href="atm.html">ATM</a></li>
+                   <li><a href="gym.html">Gym</a></li>
+                 </ul>
+               </li>
+               <li><a href="contact_us.html">Contact</a></li></ul></div></div></div>
+             </div>
+             
+           </header>
+
+
+
+
+           <div class="container">
+            <div class="row">
+             <ul class="thumbnails">
+               <li>
+                <div class="modal hide fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioList" aria-hidden="true">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel">Syllabus</h3>                    
+                  </div>
+                  <div class="modal-body">
+                    
+                    <p><center>
+                      <h5><a href="cse/notes/3.pdf">3<sup>rd</sup> Sem Download</a></h5>
+                      <h5><a href="cse/notes/4.pdf">4<sup>th</sup> Sem Download</a></h5>
+                      <h5><a href="cse/notes/5.pdf">5<sup>th</sup> Sem Download</a></h5>
+                      <h5><a href="cse/notes/6.pdf">6<sup>th</sup> Sem Download</a></h5>
+                      <h5><a href="cse/notes/7.pdf">7<sup>th</sup> Sem Download</a></h5>
+                      <h5><a href="cse/notes/8.pdf">8<sup>th</sup> Sem Download</a></h5>
+                      
+                    </p></center>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                  </div>
+                </div>
+                
+              </li>
+              
+
+              <li>
+               <div class="modal hide fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="portfolioList" aria-hidden="true">
+                 <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  <h3 id="myModalLabel">Notices</h3>                    
+                </div>
+                <div class="modal-body">
+                  
+                  <p>
+                   <script>function ticker3() {
+                    $('#ticker3 li:first').slideUp(function() {
+                      $(this).appendTo($('#ticker3')).slideDown();
+                    });
+                  }
+
+                  setInterval(function(){ ticker3(); }, 3000);
+                </script>
+                <div class="ticker3">
+                 <ul id="ticker3">
+                   <li>Dummy data is benign information that does not contain any useful data, but serves to reserve spac
+                     <hr>
+                   </li>
+                   
+                 </ul>
+               </div>
+               
+             </p>
+           </div>
+           <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+        
+      </li>
+      
+      <li>&nbsp; &nbsp;&nbsp;
+       
+        <div class="modal hide fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-labelledby="portfolioList" aria-hidden="true">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">Downloads Notes</h3>                    
+          </div>
+          <div class="modal-body">
+           
+           <p><center>
+            <h5><a  href="cse/notes/3.zip" download>3<sup>rd</sup> Sem Download</a></h5>
+            <h5><a href="cse/notes/4.zip">4<sup>th</sup> Sem Download</a></h5>
+            <h5><a href="cse/notes/5.zip">5<sup>th</sup> Sem Download</a></h5>
+            <h5><a href="cse/notes/6.zip">6<sup>th</sup> Sem Download</a></h5>
+            <h5><a href="cse/notes/7.zip">7<sup>th</sup> Sem Download</a></h5>
+            <h5><a href="cse/notes/8.zip">8<sup>th</sup> Sem Download</a></h5>
+            
+          </p></center>
+        </div>
+        <div class="modal-footer">
+          <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        </div>
+      </div>
+      
+    </li>
+  </ul>
+  
+</div>                                     
+</div>
+
+
+<div class="page-header">
+  <h1>Mathematics &nbsp;<small>Department</small></h1></div>
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  <div class="img">
+    <div align="center">
+
+    </div></div>
+    <div class="slider">
+     
+     
+      <img src="">
+
+
+    </div>
+    <div class="textcontent">
+      <h3>Aim Of The Course</h3><p></p>
+      <h3>Strengths</h3><p></p>
+      <h3>Labs</h3><p> </p>
+      <h3>Software</h3><p></p>
+      
+      
+      <hr>
+      <div class="row-fluid">
+        <ul class="thumbnails"><li class="span4">
+         <div class="thumbnail">
+           <div class="caption" style="background-color:#EEEEEC">
+             <h3 style=" border-bottom: #999 thin solid; width:100%; background-color:#039; color:#FFF;"><center>
+              Faculties
+            </center></h3>
+            <p>
+             <script>function ticker1() {
+              $('#ticker1 li:first').slideUp(function() {
+                $(this).appendTo($('#ticker1')).slideDown();
+              });
+            }
+
+            setInterval(function(){ ticker1(); }, 3000);
+          </script>
+
+          <div class="ticker1">
+           <ul id="ticker1">
+             
+             
+            <li id="tick"><img src="img/cse/16.png" style="width:100px; float:left;"/> </li>
+            
+          </ul>
+        </div>
+      </p>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+
+<li class="span4">
+  <div class="thumbnail">
+    <div class="caption"  style="background-color:#EEEEEC">
+      <h3 style=" border-bottom: #999 thin solid; width:100%; background-color:#039; color:#FFF;"><center>Notices</center></h3>
+      
+      <p>
+       <script>function ticker2() {
+        $('#ticker2 li:first').slideUp(function() {
+          $(this).appendTo($('#ticker2')).slideDown();
+        });
+      }
+      setInterval(function(){ ticker2(); }, 3000);
+    </script>
+
+    <div class="ticker2">
+     <ul id="ticker2">
+       
+       
+      <li>CONTENT......<hr></li>
+      
+    </ul>
+  </div>
+</p>
+
+</div>
+<div class="widget-footer">
+  <p>
+    
+   <div align="center"> <a href="#portfolioModal7" class="btn btn-primary" data-toggle="modal">Read more</a></div>
+ </p>
+</div>
+</div>
+</li> 
+
+
+
+
+
+<li class="span4">
+  <div class="thumbnail">
+    <div class="caption" style="background-color:#EEEEEC">
+      <h3 style=" border-bottom: #999 thin solid; width:100%; background-color:#039; color:#FFF;"><center>Activities</center></h3>
+      <p>
+       
+        <script>function ticker4() {
+          $('#ticker4 li:first').slideUp(function() {
+            $(this).appendTo($('#ticker4')).slideDown();
+          });
+        }
+        setInterval(function(){ ticker4(); }, 3000);
+      </script>           
+      
+      <div class="ticker4">
+        <ul id="ticker4">
+
+          
+          <li>activities ! <hr></li>
+          
+        </ul>
+        
+      </div>
+    </p>
+  </div>
+</div>
+</li>
+
+</ul>
+</div>
+
+
+
+<div class="row-fluid">
+  <ul class="thumbnails"><li class="span4">
+   <div class="thumbnail">
+     <div class="caption" style="background-color:#EEEEEC">
+      <h3 style=" border-bottom: #999 thin solid; width:100%; background-color:#039; color:#FFF;"><center>
+        Guest Lectures
+      </center></h3>
+      <p>
+        <script>function ticker5() {
+          $('#ticker5 li:first').slideUp(function() {
+            $(this).appendTo($('#ticker5')).slideDown();
+          });
+        }
+
+        setInterval(function(){ ticker5(); }, 3000);
+      </script>             
+      
+      
+      <div class="ticker5">
+       <ul id="ticker5">
+         
+         
+        <li>Guest Lectures.....<hr></li>
+        
+      </ul>
+    </div>
+  </p>
+</div>
+</div>
+</li>
+
+<li class="span4">
+  <div class="thumbnail">
+    <div class="caption"  style="background-color:#EEEEEC">
+      <h3 style=" border-bottom: #999 thin solid; width:100%; background-color:#039; color:#FFF;"><center>Downloads</center></h3>
+      <p>
+        <br>
+        <br>
+        <center><h5><a href="#portfolioModal8" class="btn btn-primary" data-toggle="modal">Notes</a></h5></center><br>
+        <center><h5><a href="#portfolioModal3" class="btn btn-primary" data-toggle="modal">Sylabus</a></h5></center><br>
+      </p>
+    </div>
+  </div>
+</li> 
+
+
+
+
+
+<li class="span4">
+  <div class="thumbnail">
+    <div class="caption" style="background-color:#EEEEEC">
+      <h3 style=" border-bottom: #999 thin solid; width:100%; background-color:#039; color:#FFF;"><center>Projects</center></h3>
+      <p>
+        <script>function ticker6() {
+          $('#ticker6 li:first').slideUp(function() {
+            $(this).appendTo($('#ticker6')).slideDown();
+          });
+        }
+
+        setInterval(function(){ ticker6(); }, 3000);
+      </script>             
+      
+      
+      <div class="ticker6">
+       <ul id="ticker6">
+         
+         
+        <li>Projects....<hr></li>
+        
+      </ul>
+    </div>
+  </p>
+  
+  
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+<footer>
+ <div class="container">
+  <div class="row">
+    <div class="span2">
+      <h4><i class="icon-star icon-white"></i>Departments</h4>
+      <nav>
+        <ul class="quick-links">
+          <li><a href="mech.html">Mech</a></li>
+          <li><a href="cse.html">CSE</a></li>
+          <li><a href="eee.html">EEE</a></li>
+          <li><a href="ei.html">E&I</a></li>
+          <li><a href="etnt.html">Et&NT</a></li>
+          <li><a href="it.html">IT</a></li>
+          <li><a href="mex.html">MEX</a></li>
+        </ul>
+      </nav>
+      
+    </div>
+    <div class="span2">
+      <h4><i class="icon-cogs icon-white"></i>Clubs</h4>
+      <nav>
+        <ul class="quick-links">
+          <li><a href="mea.html">MEA</a></li>
+          <li><a href="ace.html">ACE</a></li>
+          <li><a href="saeee.html">SAEEE</a></li>
+          <li><a href="elite.html">ELITE</a></li>
+          <li><a href="brite.html">BRITE</a></li>
+          <li><a href="comet.html">COMET</a></li>
+          <li><a href="fame.html">FAME</a></li>
+        </ul>
+      </nav>      
+    </div>
+    <div class="span2">
+      <h4><i class="icon-thumbs-up icon-white"></i>Admissions</h4>
+      <nav>
+        <ul class="quick-links">
+          <li><a href="ug.html">Undergraduate</a></li>
+          <li><a href="pg.html">Postgraduate</a></li>            
+        </ul>
+      </nav>
+      <h4><i class="icon-legal icon-white"></i> Legal</h4>
+      <nav>
+        <ul class="quick-links">
+          <li><a href="ar.html">Anti-Ragging</a></li>
+          
+          
+        </ul>
+      </nav>            
+    </div>
+    <div class="span3">
+      <h4>Get in touch</h4>
+      <div class="social-icons-row">
+        <a href="#"><i class="icon-twitter"></i></a>
+        <a href="https://www.facebook.com/csitdurg"><i class="icon-facebook"></i></a>
+        <a href="#"><i class="icon-linkedin"></i></a>                                         
+      </div>
+      <div class="social-icons-row">
+        <a href="#"><i class="icon-google-plus"></i></a>                       
+        <a href="mailto:itclub@csitdurg.in"><i class="icon-envelope"></i></a>            </div>
+      </div>      
+      
+      <div class="span3">
+        <nav>
+          <ul class="quick-links">
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="esancharika.html">E-sancharika</a></li>  
+            <li><a href="disclosure.html">Disclosure</a></li>          
+          </ul>
+        </nav>
+
+        <div class="span3">
+          <h4>Jobs@CSIT</h4>
+          <li><a href="#"><span class="style1"></span>New Openings</a></li>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <hr class="footer-divider">
+  <div class="container">
+
+    <p align="center">
+      &copy; 2015-2016 CSIT,Durg, Inc. All Rights Reserved.,Managed & Developed By : IT-Club       </p>
+    </div>
+  </footer>
+  
+  <!-- End: FOOTER -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script type="text/javascript" src="{% static 'js/easy-ticker.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/jquery.easing.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/boot-business.js' %}"></script>
+</body>
+</html>

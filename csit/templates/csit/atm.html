@@ -1,0 +1,264 @@
+{% load staticfiles %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CSIT,Durg">
+  <meta name="author" content="Your name">
+  <title>C.S.I.T,Durg|Chhatrapati Shivaji Institute Of Technology,Durg</title>
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'css/bootstrap-responsive.min.css' %}" rel="stylesheet"> 
+  <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+  <link href="{% static 'css/font-awesome-ie7.css' %}" rel="stylesheet">
+  <link href="{% static 'css/boot-business.css' %}" rel="stylesheet">
+  <style type="text/css">
+
+    .style1 {color: #FFFFFF}
+  </style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="{% static 'sss/sss.min.js' %}"></script>
+  <link rel="stylesheet" href="{% static 'sss/sss.css' %}" type="text/css" media="all">
+
+  <script>
+    jQuery(function($) {
+      $('.slider').sss();
+    });
+  </script>
+  <script>
+    jQuery(function($) {
+      $('.slider1').sss();
+    });
+  </script>
+  <style>
+    .ticker1 {
+      width: 95%;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 5px;
+      background-color:  #FFFFFF;
+      text-align: left;
+    }
+    .ticker2 {
+      width: 340px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 5px;
+      background-color:  #FFFFFF;
+      text-align: left;
+    }
+    .ticker3 {
+      width: 95%;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 5px;
+      background-color:  #FFFFFF;
+      text-align: left;
+    }
+  </style>
+
+
+</head>
+<body>
+  <header>
+   
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a href="index" class="brand brand-bootbus">CSIT</a>
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>            </button>
+            <div class="nav-collapse collapse">        
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="institute"> About Institute</a></li>
+                    <li><a href="mission">Mission & Vision</a></li>
+                    <li><a href="chairman">Chairman Speaks</a></li>
+                    <li><a href="director">Director Speaks</a></li>
+                    <li><a href="eminent_faculties">Eminent Faculties</a></li>
+                    <li><a href="qualitypolicy">Quality Policy</a></li> 
+                    <li><a href="governingbody">Governing Body</a></li>             
+                  </ul>                  
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academics<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  	<li class="nav-header">Undergraduate</li>
+                    <li><a href="me">Mechanical Engineering</a></li>
+                    <li><a href="cse">Computer Science & Engineering</a></li>
+                    <li><a href="etnt">Electronics & Telecommunication</a></li>
+                    <li><a href="ei">Electronic & Instrumentation</a></li>
+                    <li><a href="eee">Electrical Engineering</a></li>
+                    <li><a href="it">Information Technology </a></li>
+                    <li><a href="mex">Mechatronics Engineering</a></li>
+                    <li class="nav-header"> Applied Sciences & Humanities</li>
+                    <li><a href="physics">Applied Physics</a></li>
+                    <li><a href="chemistry">Applied Chemistry</a></li>
+                    <li><a href="maths">Applied Mathematics</a></li>
+                    <li class="nav-header">Postgraduate</li>
+                    <li><a href="mtech_me">Mechanical Engineering</a></li>
+                    <li><a href="mtech_cse">Computer Science & Engineering</a></li>
+                    <li><a href="mtech_etnt">Electronics & Telecommunication</a></li>
+                  </ul>
+                </li>
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Associations<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  	<li class="nav-header">Association Clubs</li>
+                    <li><a href="mea">MEA</a></li>
+                    <li><a href="ace">ACE</a></li>
+                    <li><a href="saeee">SAEEE</a></li>
+                    <li><a href="elite">ELITE</a></li>
+                    <li><a href="comet">COMET</a></li>
+                    <li><a href="brite">BRITE</a></li>
+                    <li><a href="fame">FAME</a></li>
+                    <li class="nav-header">Clubs</li>
+                    <li><a href="itclub">IT-Club</a></li>
+                    <li><a href="iclicks">I-Click</a></li>
+                    <li><a href="eneryclub">Energy Club</a></li>
+                  </ul>
+                </li>
+                <li><a href="admissions">Admissions</a></li>  
+                <li><a href="tpo">TPO</a></li>  
+                <li><a href="alumni">Alumni</a></li>  
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Facilities<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                   <li><a href="canteen">Canteen</a></li>
+                   <li><a href="cafe">Cafe</a></li>
+                   <li><a href="hostel">Hostel</a></li>
+                   <li><a href="postoffice">Post Office</a></li>
+                   <li><a href="bank">Bank</a></li>
+                   <li><a href="atm">ATM</a></li>
+                   <li><a href="gym">Gym</a></li>
+                 </ul>
+               </li>
+               <li><a href="contact_us">Contact</a></li>  
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+     
+   </header>
+   <div class="content">    
+    <div class="container">
+      <airticle class="article">
+        <div class="row bottom-space">
+          <div class="span12">
+            <div class="page-header">
+              <h1>About ATM</h1>
+            </div>
+          </div>
+          <div class="span12 center-align">
+            {% for about_atm in ffff%}
+            <img src="/static/{{about_atm.image}}" class="thumbnail product-snap"> 
+            {% endfor %}
+          </div>
+        </div>
+        <div class="row">
+          <div class="span10 offset1">
+
+           {% for about_atm in ffff%}
+           <p>{{about_atm.content|linebreaks}}</p>
+           {% endfor %}
+         </div>      
+       </div>
+     </airticle>
+     <!-- End: Product description -->
+   </div>
+ </div>
+</div>
+<footer>
+ <div class="container">
+  <div class="row">
+    <div class="span2">
+      <h4><i class="icon-star icon-white"></i>Departments</h4>
+      <nav>
+        <ul class="quick-links">
+          <li><a href="me">Mech</a></li>
+          <li><a href="cse">CSE</a></li>
+          <li><a href="eee">EEE</a></li>
+          <li><a href="eni">E&I</a></li>
+          <li><a href="etnt">Et&NT</a></li>
+          <li><a href="it">IT</a></li>
+          <li><a href="mex">Mecharonics</a></li>
+        </ul>
+      </nav>
+      
+    </div>
+    <div class="span2">
+      <h4><i class="icon-cogs icon-white"></i>Clubs</h4>
+      <nav>
+        <ul class="quick-links">
+          <li><a href="mea">MEA</a></li>
+          <li><a href="ace">ACE</a></li>
+          <li><a href="saeee">SAEEE</a></li>
+          <li><a href="elite">ELITE</a></li>
+          <li><a href="brite">BRITE</a></li>
+          <li><a href="comet">COMET</a></li>
+          <li><a href="fame">FAME</a></li>
+        </ul>
+      </nav>      
+    </div>
+    <div class="span2">
+      <h4><i class="icon-thumbs-up icon-white"></i>Admissions</h4>
+      <nav>
+        <ul class="quick-links">
+          <li><a href="admissions">Undergraduate</a></li>
+          <li><a href="admissions">Postgraduate</a></li>            
+        </ul>
+      </nav>
+      <h4><i class="icon-legal icon-white"></i> Legal</h4>
+      <nav>
+        <ul class="quick-links">
+          <li><a href="#">Anti-Ragging</a></li>
+          
+          
+        </ul>
+      </nav>            
+    </div>
+    <div class="span3">
+      <h4>Get in touch</h4>
+      <div class="social-icons-row">
+        <a href="#"><i class="icon-twitter"></i></a>
+        <a href="#"><i class="icon-facebook"></i></a>  
+        <a href="#"><i class="icon-google-plus"></i></a>                                       
+      </div>
+      <div class="social-icons-row">      
+        <a href="mailto:itclub@csitdurg.in"><i class="icon-envelope"></i></a></div>
+      </div>      
+      
+      <div class="span3">
+        <nav>
+          <ul class="quick-links">
+            <li><a href="faq">Gallery</a></li>
+            <li><a href="contact_us">E-sancharika</a></li>  
+            <li><a href="contact_us">Disclosure</a></li>          
+          </ul>
+        </nav>
+
+        <div class="span3">
+          <h4>Jobs@CSIT</h4>
+          <li><a href="#"><span class="style1"></span>New Openings</a></li>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <hr class="footer-divider">
+  <div class="container">
+    <p align="center">
+      &copy; 2015-2016 CSIT,Durg | All Rights Reserved | Developed By : Subhanshu Pandey | Managed By : IT-CLUB </p>
+    </div>
+  </footer>
+  
+  <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/boot-business.js' %}"></script>
+</body>
+</html>
